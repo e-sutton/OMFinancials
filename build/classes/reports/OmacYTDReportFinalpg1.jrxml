@@ -1,0 +1,2855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report1" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b1b58100-b5ba-4a7c-a284-af2955d8a73a">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#999999"/>
+		</box>
+	</style>
+	<style name="table_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#999999"/>
+		</box>
+	</style>
+	<style name="table_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#999999"/>
+		</box>
+	</style>
+	<style name="table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#999999"/>
+		</box>
+	</style>
+	<style name="table 1">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="Table Dataset 1" uuid="36219ad0-7180-4f90-9856-0de91f7b9c64"/>
+	<subDataset name="New Dataset 1" uuid="f09f8388-2404-4178-8e0f-d12ea9655a49"/>
+	<parameter name="omacLogo" class="java.io.InputStream"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="bankIntReceived" class="java.lang.Double">
+		<fieldDescription><![CDATA[bankIntReceived]]></fieldDescription>
+	</field>
+	<field name="comCare" class="java.lang.Double">
+		<fieldDescription><![CDATA[comCare]]></fieldDescription>
+	</field>
+	<field name="grantsHSE" class="java.lang.Double">
+		<fieldDescription><![CDATA[grantsHSE]]></fieldDescription>
+	</field>
+	<field name="otherFundraising" class="java.lang.Double">
+		<fieldDescription><![CDATA[otherFundraising]]></fieldDescription>
+	</field>
+	<field name="charityDonations" class="java.lang.Double">
+		<fieldDescription><![CDATA[charityDonations]]></fieldDescription>
+	</field>
+	<field name="comps" class="java.lang.Double">
+		<fieldDescription><![CDATA[comps]]></fieldDescription>
+	</field>
+	<field name="pilgrimages" class="java.lang.Double">
+		<fieldDescription><![CDATA[pilgrimages]]></fieldDescription>
+	</field>
+	<field name="rentReceived" class="java.lang.Double">
+		<fieldDescription><![CDATA[rentReceived]]></fieldDescription>
+	</field>
+	<field name="churchGate" class="java.lang.Double">
+		<fieldDescription><![CDATA[churchGate]]></fieldDescription>
+	</field>
+	<field name="grantsOther" class="java.lang.Double">
+		<fieldDescription><![CDATA[grantsOther]]></fieldDescription>
+	</field>
+	<field name="membersSub" class="java.lang.Double">
+		<fieldDescription><![CDATA[membersSub]]></fieldDescription>
+	</field>
+	<field name="grantsVEC" class="java.lang.Double">
+		<fieldDescription><![CDATA[grantsVEC]]></fieldDescription>
+	</field>
+	<field name="saleOfAmbo" class="java.lang.Double">
+		<fieldDescription><![CDATA[saleOfAmbo]]></fieldDescription>
+	</field>
+	<field name="receiptsTotal" class="java.lang.Double">
+		<fieldDescription><![CDATA[receiptsTotal]]></fieldDescription>
+	</field>
+	<field name="grantsLocalAuth" class="java.lang.Double">
+		<fieldDescription><![CDATA[grantsLocalAuth]]></fieldDescription>
+	</field>
+	<field name="sundry" class="java.lang.Double">
+		<fieldDescription><![CDATA[sundry]]></fieldDescription>
+	</field>
+	<field name="cadetInc" class="java.lang.Double">
+		<fieldDescription><![CDATA[cadetInc]]></fieldDescription>
+	</field>
+	<field name="supermarket" class="java.lang.Double">
+		<fieldDescription><![CDATA[supermarket]]></fieldDescription>
+	</field>
+	<field name="dutyDonations" class="java.lang.Double">
+		<fieldDescription><![CDATA[dutyDonations]]></fieldDescription>
+	</field>
+	<field name="otherVolDonations" class="java.lang.Double">
+		<fieldDescription><![CDATA[otherVolDonations]]></fieldDescription>
+	</field>
+	<field name="unitsDonations" class="java.lang.Double">
+		<fieldDescription><![CDATA[unitsDonations]]></fieldDescription>
+	</field>
+	<field name="cfrClasses" class="java.lang.Double">
+		<fieldDescription><![CDATA[cfrClasses]]></fieldDescription>
+	</field>
+	<field name="otherClasses" class="java.lang.Double">
+		<fieldDescription><![CDATA[otherClasses]]></fieldDescription>
+	</field>
+	<field name="basicFA" class="java.lang.Double">
+		<fieldDescription><![CDATA[basicFA]]></fieldDescription>
+	</field>
+	<field name="grantsLottery" class="java.lang.Double">
+		<fieldDescription><![CDATA[grantsLottery]]></fieldDescription>
+	</field>
+	<field name="flagDays" class="java.lang.Double">
+		<fieldDescription><![CDATA[flagDays]]></fieldDescription>
+	</field>
+	<field name="occupFAClasses" class="java.lang.Double">
+		<fieldDescription><![CDATA[occupFAClasses]]></fieldDescription>
+	</field>
+	<field name="amboMaint" class="java.lang.Double">
+		<fieldDescription><![CDATA[amboMaint]]></fieldDescription>
+	</field>
+	<field name="amboNewVeh" class="java.lang.Double">
+		<fieldDescription><![CDATA[amboNewVeh]]></fieldDescription>
+	</field>
+	<field name="amboFAEquip" class="java.lang.Double">
+		<fieldDescription><![CDATA[amboFAEquip]]></fieldDescription>
+	</field>
+	<field name="amboEmerEquip" class="java.lang.Double">
+		<fieldDescription><![CDATA[amboEmerEquip]]></fieldDescription>
+	</field>
+	<field name="bankCharges" class="java.lang.Double">
+		<fieldDescription><![CDATA[bankCharges]]></fieldDescription>
+	</field>
+	<field name="bankLoan" class="java.lang.Double">
+		<fieldDescription><![CDATA[bankLoan]]></fieldDescription>
+	</field>
+	<field name="cadetExp" class="java.lang.Double">
+		<fieldDescription><![CDATA[cadetExp]]></fieldDescription>
+	</field>
+	<field name="bankInt" class="java.lang.Double">
+		<fieldDescription><![CDATA[bankInt]]></fieldDescription>
+	</field>
+	<field name="clearedPaymentsTotal" class="java.lang.Double">
+		<fieldDescription><![CDATA[clearedPaymentsTotal]]></fieldDescription>
+	</field>
+	<field name="comCatering" class="java.lang.Double">
+		<fieldDescription><![CDATA[comCatering]]></fieldDescription>
+	</field>
+	<field name="comMaint" class="java.lang.Double">
+		<fieldDescription><![CDATA[comMaint]]></fieldDescription>
+	</field>
+	<field name="comOutings" class="java.lang.Double">
+		<fieldDescription><![CDATA[comOutings]]></fieldDescription>
+	</field>
+	<field name="comServ" class="java.lang.Double">
+		<fieldDescription><![CDATA[comServ]]></fieldDescription>
+	</field>
+	<field name="coursesFA" class="java.lang.Double">
+		<fieldDescription><![CDATA[coursesFA]]></fieldDescription>
+	</field>
+	<field name="coursesOFA" class="java.lang.Double">
+		<fieldDescription><![CDATA[coursesOFA]]></fieldDescription>
+	</field>
+	<field name="donationsOtherUnit" class="java.lang.Double">
+		<fieldDescription><![CDATA[donationsOtherUnit]]></fieldDescription>
+	</field>
+	<field name="donationsOtherVol" class="java.lang.Double">
+		<fieldDescription><![CDATA[donationsOtherVol]]></fieldDescription>
+	</field>
+	<field name="fundraisingExp" class="java.lang.Double">
+		<fieldDescription><![CDATA[fundraisingExp]]></fieldDescription>
+	</field>
+	<field name="hqCerts" class="java.lang.Double">
+		<fieldDescription><![CDATA[hqCerts]]></fieldDescription>
+	</field>
+	<field name="hqFund" class="java.lang.Double">
+		<fieldDescription><![CDATA[hqFund]]></fieldDescription>
+	</field>
+	<field name="hqIns" class="java.lang.Double">
+		<fieldDescription><![CDATA[hqIns]]></fieldDescription>
+	</field>
+	<field name="hqPilgrimages" class="java.lang.Double">
+		<fieldDescription><![CDATA[hqPilgrimages]]></fieldDescription>
+	</field>
+	<field name="hqSupplies" class="java.lang.Double">
+		<fieldDescription><![CDATA[hqSupplies]]></fieldDescription>
+	</field>
+	<field name="hqTraining" class="java.lang.Double">
+		<fieldDescription><![CDATA[hqTraining]]></fieldDescription>
+	</field>
+	<field name="hqUniforms" class="java.lang.Double">
+		<fieldDescription><![CDATA[hqUniforms]]></fieldDescription>
+	</field>
+	<field name="regionalFund" class="java.lang.Double">
+		<fieldDescription><![CDATA[regionalFund]]></fieldDescription>
+	</field>
+	<field name="regionalMeetExp" class="java.lang.Double">
+		<fieldDescription><![CDATA[regionalMeetExp]]></fieldDescription>
+	</field>
+	<field name="regionalTrainExp" class="java.lang.Double">
+		<fieldDescription><![CDATA[regionalTrainExp]]></fieldDescription>
+	</field>
+	<field name="sundry2" class="java.lang.Double">
+		<fieldDescription><![CDATA[sundry2]]></fieldDescription>
+	</field>
+	<field name="unitComps" class="java.lang.Double">
+		<fieldDescription><![CDATA[unitComps]]></fieldDescription>
+	</field>
+	<field name="unitConfExp" class="java.lang.Double">
+		<fieldDescription><![CDATA[unitConfExp]]></fieldDescription>
+	</field>
+	<field name="unitLightHeat" class="java.lang.Double">
+		<fieldDescription><![CDATA[unitLightHeat]]></fieldDescription>
+	</field>
+	<field name="unitPetrolDiesel" class="java.lang.Double">
+		<fieldDescription><![CDATA[unitPetrolDiesel]]></fieldDescription>
+	</field>
+	<field name="unitPropRepair" class="java.lang.Double">
+		<fieldDescription><![CDATA[unitPropRepair]]></fieldDescription>
+	</field>
+	<field name="unitRent" class="java.lang.Double">
+		<fieldDescription><![CDATA[unitRent]]></fieldDescription>
+	</field>
+	<field name="unitStationary" class="java.lang.Double">
+		<fieldDescription><![CDATA[unitStationary]]></fieldDescription>
+	</field>
+	<field name="unitTel" class="java.lang.Double">
+		<fieldDescription><![CDATA[unitTel]]></fieldDescription>
+	</field>
+	<field name="unitTrainCourses" class="java.lang.Double">
+		<fieldDescription><![CDATA[unitTrainCourses]]></fieldDescription>
+	</field>
+	<field name="unitTrainEquip" class="java.lang.Double">
+		<fieldDescription><![CDATA[unitTrainEquip]]></fieldDescription>
+	</field>
+	<field name="unit" class="java.lang.String">
+		<fieldDescription><![CDATA[unit]]></fieldDescription>
+	</field>
+	<field name="acBalance" class="java.lang.Double">
+		<fieldDescription><![CDATA[acBalance]]></fieldDescription>
+	</field>
+	<field name="unpayAmboEmerEquip" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayAmboEmerEquip]]></fieldDescription>
+	</field>
+	<field name="unpayAmboFAEquip" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayAmboFAEquip]]></fieldDescription>
+	</field>
+	<field name="unpayAmboMaint" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayAmboMaint]]></fieldDescription>
+	</field>
+	<field name="unpayAmboNewVeh" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayAmboNewVeh]]></fieldDescription>
+	</field>
+	<field name="unpayBankCharges" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayBankCharges]]></fieldDescription>
+	</field>
+	<field name="unpayBankInt" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayBankInt]]></fieldDescription>
+	</field>
+	<field name="unpayBankLoan" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayBankLoan]]></fieldDescription>
+	</field>
+	<field name="unpayCadetExp" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayCadetExp]]></fieldDescription>
+	</field>
+	<field name="unpayComCatering" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayComCatering]]></fieldDescription>
+	</field>
+	<field name="unpayComMaint" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayComMaint]]></fieldDescription>
+	</field>
+	<field name="unpayComOutings" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayComOutings]]></fieldDescription>
+	</field>
+	<field name="unpayComServ" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayComServ]]></fieldDescription>
+	</field>
+	<field name="unpayCoursesFA" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayCoursesFA]]></fieldDescription>
+	</field>
+	<field name="unpayCoursesOFA" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayCoursesOFA]]></fieldDescription>
+	</field>
+	<field name="unpayDonationsOtherUnit" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayDonationsOtherUnit]]></fieldDescription>
+	</field>
+	<field name="unpayDonationsOtherVol" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayDonationsOtherVol]]></fieldDescription>
+	</field>
+	<field name="unpayFundraisingExp" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayFundraisingExp]]></fieldDescription>
+	</field>
+	<field name="unpayHqCerts" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayHqCerts]]></fieldDescription>
+	</field>
+	<field name="unpayHqFund" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayHqFund]]></fieldDescription>
+	</field>
+	<field name="unpayHqIns" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayHqIns]]></fieldDescription>
+	</field>
+	<field name="unpayHqPilgrimages" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayHqPilgrimages]]></fieldDescription>
+	</field>
+	<field name="unpayHqSupplies" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayHqSupplies]]></fieldDescription>
+	</field>
+	<field name="unpayHqTraining" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayHqTraining]]></fieldDescription>
+	</field>
+	<field name="unpayHqUniforms" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayHqUniforms]]></fieldDescription>
+	</field>
+	<field name="unpayRegionalFund" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayRegionalFund]]></fieldDescription>
+	</field>
+	<field name="unpayRegionalMeetExp" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayRegionalMeetExp]]></fieldDescription>
+	</field>
+	<field name="unpayRegionalTrainExp" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayRegionalTrainExp]]></fieldDescription>
+	</field>
+	<field name="unpaySundry2" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpaySundry2]]></fieldDescription>
+	</field>
+	<field name="unpayUnitComps" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayUnitComps]]></fieldDescription>
+	</field>
+	<field name="unpayUnitConfExp" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayUnitConfExp]]></fieldDescription>
+	</field>
+	<field name="unpayUnitLightHeat" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayUnitLightHeat]]></fieldDescription>
+	</field>
+	<field name="unpayUnitPetrolDiesel" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayUnitPetrolDiesel]]></fieldDescription>
+	</field>
+	<field name="unpayUnitPropRepair" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayUnitPropRepair]]></fieldDescription>
+	</field>
+	<field name="unpayUnitRent" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayUnitRent]]></fieldDescription>
+	</field>
+	<field name="unpayUnitStationary" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayUnitStationary]]></fieldDescription>
+	</field>
+	<field name="unpayUnitTel" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayUnitTel]]></fieldDescription>
+	</field>
+	<field name="unpayUnitTrainCourses" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayUnitTrainCourses]]></fieldDescription>
+	</field>
+	<field name="unpayUnitTrainEquip" class="java.lang.Double">
+		<fieldDescription><![CDATA[unpayUnitTrainEquip]]></fieldDescription>
+	</field>
+	<field name="unrecBankIntReceived" class="java.lang.Double">
+		<fieldDescription><![CDATA[unrecBankIntReceived]]></fieldDescription>
+	</field>
+	<field name="unrecBasicFA" class="java.lang.Double">
+		<fieldDescription><![CDATA[unrecBasicFA]]></fieldDescription>
+	</field>
+	<field name="unrecCadetInc" class="java.lang.Double">
+		<fieldDescription><![CDATA[unrecCadetInc]]></fieldDescription>
+	</field>
+	<field name="unrecCfrClasses" class="java.lang.Double">
+		<fieldDescription><![CDATA[unrecCfrClasses]]></fieldDescription>
+	</field>
+	<field name="unrecCharityDonations" class="java.lang.Double">
+		<fieldDescription><![CDATA[unrecCharityDonations]]></fieldDescription>
+	</field>
+	<field name="unrecChurchGate" class="java.lang.Double">
+		<fieldDescription><![CDATA[unrecChurchGate]]></fieldDescription>
+	</field>
+	<field name="unrecComCare" class="java.lang.Double">
+		<fieldDescription><![CDATA[unrecComCare]]></fieldDescription>
+	</field>
+	<field name="unrecComps" class="java.lang.Double">
+		<fieldDescription><![CDATA[unrecComps]]></fieldDescription>
+	</field>
+	<field name="unrecDutyDonations" class="java.lang.Double">
+		<fieldDescription><![CDATA[unrecDutyDonations]]></fieldDescription>
+	</field>
+	<field name="unrecFlagDays" class="java.lang.Double">
+		<fieldDescription><![CDATA[unrecFlagDays]]></fieldDescription>
+	</field>
+	<field name="unrecGrantsHSE" class="java.lang.Double">
+		<fieldDescription><![CDATA[unrecGrantsHSE]]></fieldDescription>
+	</field>
+	<field name="unrecGrantsLocalAuth" class="java.lang.Double">
+		<fieldDescription><![CDATA[unrecGrantsLocalAuth]]></fieldDescription>
+	</field>
+	<field name="unrecGrantsLottery" class="java.lang.Double">
+		<fieldDescription><![CDATA[unrecGrantsLottery]]></fieldDescription>
+	</field>
+	<field name="unrecGrantsOther" class="java.lang.Double">
+		<fieldDescription><![CDATA[unrecGrantsOther]]></fieldDescription>
+	</field>
+	<field name="unrecGrantsVEC" class="java.lang.Double">
+		<fieldDescription><![CDATA[unrecGrantsVEC]]></fieldDescription>
+	</field>
+	<field name="unrecMembersSub" class="java.lang.Double">
+		<fieldDescription><![CDATA[unrecMembersSub]]></fieldDescription>
+	</field>
+	<field name="unrecOccupFAClasses" class="java.lang.Double">
+		<fieldDescription><![CDATA[unrecOccupFAClasses]]></fieldDescription>
+	</field>
+	<field name="unrecOtherClasses" class="java.lang.Double">
+		<fieldDescription><![CDATA[unrecOtherClasses]]></fieldDescription>
+	</field>
+	<field name="unrecOtherFundraising" class="java.lang.Double">
+		<fieldDescription><![CDATA[unrecOtherFundraising]]></fieldDescription>
+	</field>
+	<field name="unrecOtherVolDonations" class="java.lang.Double">
+		<fieldDescription><![CDATA[unrecOtherVolDonations]]></fieldDescription>
+	</field>
+	<field name="unrecPilgrimages" class="java.lang.Double">
+		<fieldDescription><![CDATA[unrecPilgrimages]]></fieldDescription>
+	</field>
+	<field name="unrecRentReceived" class="java.lang.Double">
+		<fieldDescription><![CDATA[unrecRentReceived]]></fieldDescription>
+	</field>
+	<field name="unrecSaleOfAmbo" class="java.lang.Double">
+		<fieldDescription><![CDATA[unrecSaleOfAmbo]]></fieldDescription>
+	</field>
+	<field name="unrecSundry" class="java.lang.Double">
+		<fieldDescription><![CDATA[unrecSundry]]></fieldDescription>
+	</field>
+	<field name="unrecSupermarket" class="java.lang.Double">
+		<fieldDescription><![CDATA[unrecSupermarket]]></fieldDescription>
+	</field>
+	<field name="unrecUnitsDonations" class="java.lang.Double">
+		<fieldDescription><![CDATA[unrecUnitsDonations]]></fieldDescription>
+	</field>
+	<field name="unclearedPaymentsTotal" class="java.lang.Double">
+		<fieldDescription><![CDATA[unclearedPaymentsTotal]]></fieldDescription>
+	</field>
+	<field name="unclearedReceiptsTotal" class="java.lang.Double">
+		<fieldDescription><![CDATA[unclearedReceiptsTotal]]></fieldDescription>
+	</field>
+	<field name="finalTotal" class="java.lang.Double">
+		<fieldDescription><![CDATA[finalTotal]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="80" splitType="Stretch">
+			<textField pattern="dd/MM/yyyy">
+				<reportElement x="471" y="59" width="100" height="20" uuid="c0330c5e-2127-4b69-9ca0-014f267401da"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="248" y="23" width="281" height="20" forecolor="#CC0000" uuid="47e00edc-ac33-4feb-b357-088b4f28a72c"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ORDER OF MALTA AMBULANCE CORPS]]></text>
+			</staticText>
+			<line>
+				<reportElement x="233" y="51" width="310" height="1" uuid="f8578433-94c0-4236-98b5-6717ea21fc64"/>
+				<graphicElement>
+					<pen lineWidth="1.5"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="419" y="59" width="52" height="20" uuid="50df5707-7314-40ff-8fda-98516c6922e1"/>
+				<textElement>
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Print Date:]]></text>
+			</staticText>
+			<image>
+				<reportElement x="0" y="0" width="210" height="61" uuid="8ce1ad4d-e7ea-477c-a0d1-f142908906c9"/>
+				<imageExpression><![CDATA[$P{omacLogo}]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="25" splitType="Stretch">
+			<staticText>
+				<reportElement x="157" y="0" width="240" height="20" uuid="cf9f3e2c-e42e-438d-bc53-69e8c042b738"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<text><![CDATA[UNIT FINANCIAL YEAR TO DATE REPORT]]></text>
+			</staticText>
+			<line>
+				<reportElement x="35" y="20" width="494" height="1" uuid="71bcb57a-fc9b-46c7-960e-e541b686cac1"/>
+				<graphicElement>
+					<pen lineWidth="1.5"/>
+				</graphicElement>
+			</line>
+			<textField pattern="yyyy">
+				<reportElement x="400" y="0" width="100" height="16" uuid="c647f9ea-c3ac-4009-962b-627fc0b14b8f"/>
+				<textElement>
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement x="7" y="5" width="49" height="20" forecolor="#CC0000" uuid="d11ea049-f19d-4f3d-a413-b5241c3048df"/>
+				<textElement>
+					<font fontName="Verdana" size="16"/>
+				</textElement>
+				<text><![CDATA[UNIT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="361" y="5" width="82" height="20" forecolor="#CC0000" uuid="de8ea141-ea81-4420-b13a-54fea75c7003"/>
+				<textElement>
+					<font fontName="Verdana" size="16"/>
+				</textElement>
+				<text><![CDATA[Currency]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="471" y="5" width="72" height="20" forecolor="#CC0000" uuid="3b4b03da-eab0-466e-8c8a-cf86b5ff729e"/>
+				<textElement>
+					<font fontName="Verdana" size="16" isBold="true" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[EURO €]]></text>
+			</staticText>
+			<line>
+				<reportElement x="443" y="37" width="100" height="1" uuid="bf3b1cbc-106b-4208-83b4-9eff2ae18f2e"/>
+				<graphicElement>
+					<pen lineWidth="1.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="443" y="60" width="100" height="1" uuid="18684b08-af50-43ae-bf90-76ecd8e139c0"/>
+				<graphicElement>
+					<pen lineWidth="1.5"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="7" y="37" width="251" height="20" forecolor="#CC0000" uuid="10f43293-4132-43cc-8881-8df80ded6e19"/>
+				<textElement>
+					<font fontName="Verdana" size="16" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Opening Balance All Accounts]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="443" y="41" width="100" height="20" uuid="62038d61-b30c-4af6-b0ce-f25d725d2b6f"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{acBalance}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="68" y="5" width="100" height="20" uuid="993e379b-470c-4282-9a3b-4a1e21ba15bf"/>
+				<textElement>
+					<font fontName="Verdana" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unit}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="631" splitType="Stretch">
+			<staticText>
+				<reportElement x="7" y="14" width="76" height="20" forecolor="#CC0000" uuid="78d6ca9e-ffeb-4454-b3ce-16ce9262bbe8"/>
+				<textElement>
+					<font fontName="Verdana" size="16"/>
+				</textElement>
+				<text><![CDATA[Receipts]]></text>
+			</staticText>
+			<line>
+				<reportElement x="156" y="35" width="119" height="1" uuid="4b30a5bd-f095-434f-9f50-9802c8bc5783"/>
+				<graphicElement>
+					<pen lineWidth="1.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="435" y="34" width="120" height="1" uuid="99adbfb6-5428-40a0-92f2-7c0e5605bfbb"/>
+				<graphicElement>
+					<pen lineWidth="1.5"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="156" y="16" width="119" height="18" uuid="e3219c33-67c9-4a7a-bff7-505e2f43fbcc"/>
+				<textElement>
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Uncleared	Cleared]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="435" y="14" width="136" height="18" uuid="02b508ed-0188-456c-bf1e-15a21db56146"/>
+				<textElement>
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Uncleared	Cleared]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="294" y="14" width="88" height="20" forecolor="#CC0000" uuid="87e90ce0-6c23-4866-ab90-aadaac5b9b21"/>
+				<textElement>
+					<font fontName="Verdana" size="16"/>
+				</textElement>
+				<text><![CDATA[Payments]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="7" y="47" width="150" height="15" forecolor="#999999" uuid="2c972c69-795a-4324-898c-6352b078374a"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="157" y="47" width="67" height="15" forecolor="#999999" uuid="26c229c0-7846-4b54-9f2d-9421b680bf5c"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="218" y="47" width="57" height="15" forecolor="#999999" uuid="ad574379-1b12-4af1-ba29-395c76b359cf"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="218" y="62" width="57" height="15" forecolor="#999999" uuid="352db521-3696-43d6-8c6b-06862b4ab5e8"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="157" y="62" width="61" height="15" forecolor="#999999" uuid="7fbb4482-ee10-4d4e-9523-46d18391ed03"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="7" y="62" width="150" height="15" forecolor="#999999" uuid="c6399474-45f5-47c1-91ec-0034048e8457"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="157" y="77" width="61" height="15" forecolor="#999999" uuid="4c002d58-c858-4379-8148-03293caea7c2"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="7" y="77" width="150" height="15" forecolor="#999999" uuid="a8a0f16d-7dff-4d43-8418-bef025d88572"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="218" y="77" width="57" height="15" forecolor="#999999" uuid="6130d987-fbbf-409a-9893-80e2606b8354"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="293" y="47" width="143" height="21" forecolor="#999999" uuid="35d7662d-f786-4cd2-bf27-e21fd505431a"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="435" y="68" width="64" height="21" forecolor="#999999" uuid="ac183e65-5d93-4133-89b8-e65dc3e5ad67"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="499" y="47" width="56" height="21" forecolor="#999999" uuid="825d4176-6164-4614-b8e7-0d4ce3114d98"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="435" y="89" width="64" height="15" forecolor="#999999" uuid="1e732642-e19f-43a4-9a9c-512c0fd236e8"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="293" y="89" width="142" height="15" forecolor="#999999" uuid="a63a79d1-7742-447b-af6e-321bcfe5c3f4"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="499" y="89" width="56" height="15" forecolor="#999999" uuid="8977844a-cac8-4cfe-ad28-d63dadefa4f1"/>
+			</rectangle>
+			<staticText>
+				<reportElement mode="Transparent" x="7" y="47" width="150" height="15" uuid="b7e7a26a-2dd7-4704-93fd-d7174dab8e75"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true" isPdfEmbedded="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Bank Interest Received]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="7" y="92" width="150" height="15" forecolor="#999999" uuid="23ee97b2-487b-467e-956c-9287cec9445e"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="218" y="92" width="57" height="15" forecolor="#999999" uuid="c2c517c6-c65f-4874-bf15-7d590257915b"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="157" y="92" width="61" height="15" forecolor="#999999" uuid="bc9ef7ca-48d6-47d4-b637-9ebaa0eb4144"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="7" y="107" width="150" height="15" forecolor="#999999" uuid="1643ee81-b72e-4bb2-82e9-8d792ebda8bb"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="218" y="107" width="57" height="15" forecolor="#999999" uuid="3fbeb03a-ac0b-420f-a32e-7f1bdd7d5ddf"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="157" y="107" width="61" height="15" forecolor="#999999" uuid="cd977d12-523c-476e-b806-39c4fa9da4d3"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="7" y="122" width="150" height="20" forecolor="#999999" uuid="e4e6e320-65e4-417b-b9d2-aa909ff7d913"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="218" y="122" width="57" height="20" forecolor="#999999" uuid="21e34660-1035-426a-82ff-78cb02404534"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="157" y="122" width="61" height="20" forecolor="#999999" uuid="b0221ade-ae4b-47ee-afba-ecc86f8133bc"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="7" y="92" width="150" height="15" uuid="692dc88f-3a6b-4cb2-83f3-8579b9b7bc63"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[CFR Classes]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="7" y="107" width="150" height="15" uuid="e5f17c4a-76b7-42e1-8b08-47e100b0ac78"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Church Gate & House-to-House]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="7" y="122" width="150" height="20" uuid="6c829eaa-1e95-4e0d-ae57-ee8a1ecb443f"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Community Care - Centre Donations]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="7" y="142" width="150" height="15" forecolor="#999999" uuid="28860ec7-8957-46c6-8096-8ff290cdb145"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="218" y="142" width="57" height="15" forecolor="#999999" uuid="7c15c435-aa81-4a2a-9ac0-5d53b1b06ba6"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="157" y="142" width="61" height="15" forecolor="#999999" uuid="30749105-d95d-46a5-a092-9f38b7803ba1"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="7" y="142" width="150" height="15" uuid="529b8e77-df70-4355-9a39-c19a16881d49"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Competitions]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="7" y="157" width="150" height="15" forecolor="#999999" uuid="4be3db81-0aff-4284-8418-779622ddf609"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="218" y="157" width="57" height="15" forecolor="#999999" uuid="b1871a2e-8786-4f96-b97c-409be1dbfa3f"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="157" y="157" width="61" height="15" forecolor="#999999" uuid="7dc9a580-a0b1-493a-af00-e636204eaa30"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="7" y="157" width="150" height="15" uuid="3c4af99a-93f8-4348-8426-cd697d7310d5"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Donations (Charitable)]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="7" y="172" width="150" height="15" forecolor="#999999" uuid="b8c30855-94df-44fd-a7b1-d511c1e8b072"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="7" y="172" width="150" height="15" uuid="f19eeaef-593a-49fc-a4fe-65115a460410"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Donations (Dutys)]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="157" y="172" width="61" height="15" forecolor="#999999" uuid="794fa224-8f2d-4e78-8b26-9d34f90f5b3b"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="218" y="172" width="57" height="15" forecolor="#999999" uuid="b8ba4891-f34e-4045-81b0-b2f4d088c7da"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="7" y="187" width="150" height="20" forecolor="#999999" uuid="09600e47-b829-4564-a860-f833cb5495c5"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="157" y="187" width="61" height="20" forecolor="#999999" uuid="eb66ad7f-022b-4478-8221-345c772b6cf0"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="7" y="187" width="150" height="20" uuid="efeb19ce-1f65-4fe4-9cb0-084288e204c5"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Donations from other units/regions]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="218" y="187" width="57" height="20" forecolor="#999999" uuid="b974ba2a-72c9-4b5c-86f3-6c89f56cd417"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="157" y="207" width="61" height="20" forecolor="#999999" uuid="08060d52-a5b3-4532-8848-25cbf0780b1c"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="218" y="207" width="57" height="20" forecolor="#999999" uuid="f8bbef97-9a30-4ff4-bdf0-feb31b3515bf"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="7" y="207" width="150" height="20" forecolor="#999999" uuid="2f1e8b3d-8344-427d-bdd4-9438a2d2ad0d"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="7" y="207" width="150" height="20" uuid="cff9a457-15e9-473c-a8db-507e5e027211"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Donations from other Voluntary aid societies]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="218" y="227" width="57" height="15" forecolor="#999999" uuid="c1d891ce-ca09-4f71-a8e5-fc91102422bd"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="7" y="227" width="150" height="15" forecolor="#999999" uuid="770f7555-e794-45a3-a74b-9f5c1b402ab8"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="157" y="227" width="61" height="15" forecolor="#999999" uuid="6a848269-eacb-47ce-9c74-ee87e3fb7d69"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="7" y="227" width="150" height="15" uuid="8d0a55b4-3411-4be2-a543-e335778b899f"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Flag Days]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="7" y="242" width="150" height="15" forecolor="#999999" uuid="1c072ba2-d2d1-4d54-a1ad-7f44e03b7175"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="7" y="242" width="150" height="15" uuid="644f04bc-ea00-4a3f-b0ce-085730a8b16d"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Grants - HSE]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="157" y="242" width="61" height="15" forecolor="#999999" uuid="9e5678bc-c52c-474b-a212-3c988789889a"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="218" y="242" width="57" height="15" forecolor="#999999" uuid="10b30b19-e28d-4c66-9a19-e52d7ef25308"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="157" y="257" width="61" height="15" forecolor="#999999" uuid="ac476ab3-6f85-41cf-832f-bf55675bc083"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="7" y="257" width="150" height="15" forecolor="#999999" uuid="3518084f-7bdd-4d49-a1c3-f9956dedcfff"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="218" y="257" width="57" height="15" forecolor="#999999" uuid="fdc5b9d1-b375-4ba6-a55f-c7e7f0ddb828"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="7" y="257" width="150" height="15" uuid="7da47358-acc2-41f3-a245-30bc5cfefbba"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Grants - Local Authority]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="7" y="272" width="150" height="15" forecolor="#999999" uuid="0728c871-88df-4915-b974-dd8d52073b74"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="7" y="272" width="150" height="15" uuid="914e1918-28fb-44e1-bb45-2a99bec3da81"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Grants - National Lottery]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="157" y="272" width="61" height="15" forecolor="#999999" uuid="93e91183-1466-4d08-a330-f93e03800814"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="218" y="272" width="57" height="15" forecolor="#999999" uuid="2eb50479-b7ca-49b3-a8c6-ea94dcb3354c"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="7" y="287" width="150" height="15" forecolor="#999999" uuid="19531abc-a58b-4082-b5f0-bd5ee50f3ee4"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="7" y="287" width="150" height="15" uuid="7bbbf240-a19b-4416-b6c5-120d30b582b0"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Grants - Other]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="157" y="287" width="61" height="15" forecolor="#999999" uuid="e97da0e4-b459-4feb-914e-38a089d7bc77"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="218" y="287" width="57" height="15" forecolor="#999999" uuid="6ecc95e2-cbc9-4250-93b6-f62fb9488b1c"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="7" y="302" width="150" height="15" forecolor="#999999" uuid="2ed922af-bbef-4f36-91f2-52cb4e6ec1eb"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="7" y="302" width="150" height="15" uuid="542bd280-1f66-432d-9748-c40326d055c1"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Grants - V.E.C.]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="157" y="302" width="61" height="15" forecolor="#999999" uuid="e619d451-e756-40c1-9575-fa8b222d8afa"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="218" y="302" width="57" height="15" forecolor="#999999" uuid="71adbe55-f3ca-4e0d-b276-23d6d6e459c2"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="7" y="317" width="150" height="15" forecolor="#999999" uuid="78b17249-b6b2-4258-b5c1-fb9f971f4585"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="7" y="317" width="150" height="15" uuid="769bf483-8f37-4112-bd3d-ed5e30f91a34"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Members Subscriptions]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="157" y="317" width="61" height="15" forecolor="#999999" uuid="77e7cca5-e6af-46d4-9728-1bbb6930b75b"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="218" y="317" width="57" height="15" forecolor="#999999" uuid="1b47e0ed-4ddb-4151-a182-299ac6aa3943"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="7" y="332" width="150" height="15" forecolor="#999999" uuid="ecbdb028-0d57-4208-b5f8-0a0cf5ba95fc"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="7" y="332" width="150" height="15" uuid="f03ed9c6-502e-438b-a358-a271b3d64776"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Occupational First Aid Classes]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="157" y="332" width="61" height="15" forecolor="#999999" uuid="9d3939b4-2ff0-4a13-a8dd-ff33bd44dc31"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="218" y="332" width="57" height="15" forecolor="#999999" uuid="71127f7b-0e18-4b83-a731-f354d07857de"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="7" y="347" width="150" height="15" forecolor="#999999" uuid="c3e2ca50-a049-411b-bc81-349b316087a8"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="7" y="347" width="150" height="15" uuid="14ba11cb-29c1-48e8-ac24-8264abfe6449"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Other Classes]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="157" y="347" width="61" height="15" forecolor="#999999" uuid="06b8b167-327b-4447-894c-c01b52f7ff59"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="218" y="347" width="57" height="15" forecolor="#999999" uuid="0d54ecd0-42b3-404c-b054-ad508be23fcb"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="7" y="362" width="150" height="15" forecolor="#999999" uuid="a344397e-19ff-441a-8469-750c6ef5f50c"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="7" y="362" width="150" height="15" uuid="393a5518-3e43-41ff-8e54-6305f8300fa0"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Other Fundraising (Specify)]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="157" y="362" width="61" height="15" forecolor="#999999" uuid="0240479e-cd83-4fb3-ab94-80d06c69b3bb"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="218" y="362" width="57" height="15" forecolor="#999999" uuid="737e6ec4-c1fa-4ba7-84d6-6c95244fe033"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="7" y="377" width="150" height="15" forecolor="#999999" uuid="b2738caf-13aa-4aef-ae16-3fd01b9cc8ea"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="7" y="377" width="150" height="15" uuid="8b4c176b-84df-44a6-beba-1173a5bf512c"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Pilgrimages]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="157" y="377" width="61" height="15" forecolor="#999999" uuid="10eeb3ca-f5f1-4369-b698-475c532f79f7"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="218" y="377" width="57" height="15" forecolor="#999999" uuid="84597d2e-9dc7-4745-94b0-40a7cc7b1407"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="7" y="392" width="150" height="15" forecolor="#999999" uuid="508acb41-81ab-4b37-b50c-db5a3e2a16c3"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="7" y="392" width="150" height="15" uuid="42e1b732-6cfa-4ce0-a034-5f3e202d8eeb"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Rent Received]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="157" y="392" width="61" height="15" forecolor="#999999" uuid="a0bb438b-bcc1-4b9b-b9da-f96d95b36348"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="218" y="392" width="57" height="15" forecolor="#999999" uuid="4dd8fb58-1b20-4c9e-9de5-1d6c6c58fdcd"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="7" y="407" width="150" height="15" forecolor="#999999" uuid="5fb54aab-94c9-46e2-9727-38c8aa8cc970"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="7" y="407" width="150" height="15" uuid="5b03bf03-68b9-4c04-8acf-2f03f9ad7d9f"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Sale of Ambulance]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="157" y="407" width="61" height="15" forecolor="#999999" uuid="27b0a51a-c9ce-4ced-b43a-67974f3d7a12"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="218" y="407" width="57" height="15" forecolor="#999999" uuid="c7d85807-7074-4dfd-b8d5-b00eed120ec6"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="7" y="422" width="150" height="15" forecolor="#999999" uuid="3fc50292-d93d-42ab-97d8-df82acdd3302"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="7" y="422" width="150" height="15" uuid="a061773a-15db-40ed-94b3-6e9c6ddf3797"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Sundry*]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="157" y="422" width="61" height="15" forecolor="#999999" uuid="91b45006-7ff8-4dc1-a597-d1f1e08f728c"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="218" y="422" width="57" height="15" forecolor="#999999" uuid="f15d1bff-0dc8-464e-93cf-2a812028beaf"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="7" y="437" width="150" height="15" forecolor="#999999" uuid="44d1b2c6-5627-4fe8-b83c-b39dab1201af"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="7" y="437" width="150" height="15" uuid="1f05b0eb-cc49-4a33-b831-753220e57b94"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Supermarket Bag Packing]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="157" y="437" width="61" height="15" forecolor="#999999" uuid="1a12d92e-14f9-4835-ab45-dfb2908e537d"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="218" y="437" width="57" height="15" forecolor="#999999" uuid="88e49a2e-4116-444d-b184-99202ea98a6f"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="294" y="47" width="142" height="21" uuid="41e250a0-f852-415c-8811-d7d6cd8222f0"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Ambulance - Emergency Equipment]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="293" y="68" width="142" height="21" forecolor="#999999" uuid="74547681-18aa-42ef-9939-6c16b3fddbc0"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="435" y="47" width="64" height="21" forecolor="#999999" uuid="bb6dec81-2bce-4391-81da-3259098c890c"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="499" y="68" width="56" height="21" forecolor="#999999" uuid="1b7e0351-54c0-45cd-8c16-de904acb4b3a"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="294" y="68" width="142" height="21" uuid="f8675bae-3dcf-44ae-ba4d-0d191eb68b1b"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Ambulance - First Aid Equipment]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="294" y="89" width="141" height="15" uuid="e8fa80d6-21ad-444a-8ce0-f69e092b4f36"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Ambulance - Maintenance]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="293" y="104" width="142" height="21" forecolor="#999999" uuid="e6c6cfc1-d00b-4cdd-ba92-43c67b3499ea"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="499" y="104" width="56" height="21" forecolor="#999999" uuid="b6c309cb-b3be-4842-8aa9-a2d16fb25684"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="435" y="104" width="64" height="21" forecolor="#999999" uuid="0325e64f-cf6e-4c07-af35-7f5a49a4577a"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="294" y="104" width="141" height="21" uuid="8d84d7da-6a4f-41f6-9162-971a7c2a0600"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Ambulance - New Vehicle Purchase]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="293" y="125" width="143" height="11" forecolor="#999999" uuid="fa21f60b-9e29-4e40-aa72-2305403b7a9d"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="499" y="125" width="56" height="11" forecolor="#999999" uuid="e1e36837-8efa-468a-9f74-de110d212e87"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="435" y="125" width="64" height="11" forecolor="#999999" uuid="72c01cd7-695b-4f49-a303-0a2e32e32558"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="125" width="142" height="11" uuid="9e6ecfb0-4eca-4f74-b700-cd5163b733af"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Bank - Charges]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="435" y="136" width="64" height="11" forecolor="#999999" uuid="6aaad987-c08d-425a-b563-cc0aa6125a76"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="293" y="136" width="142" height="11" forecolor="#999999" uuid="fc5688b6-362c-4fde-8f20-7a6d1c04e23a"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="499" y="136" width="56" height="11" forecolor="#999999" uuid="9554e4f6-b7db-47c7-bd1f-2adf78fa6201"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="136" width="142" height="11" uuid="b804b1c2-fcd3-41d5-88e0-769701446ebf"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Bank - Interest Payable]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="435" y="147" width="64" height="11" forecolor="#999999" uuid="5e036cbb-54e5-483c-ac33-b9de101c6d4b"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="499" y="147" width="56" height="11" forecolor="#999999" uuid="84a8413c-d060-445a-b167-06a8a0eac9a9"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="293" y="147" width="142" height="11" forecolor="#999999" uuid="4253bbc8-0302-4f9f-93ff-b4e0222b3fbc"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="147" width="142" height="11" uuid="45189d1d-0ac8-4ff9-9412-59ad4659f2a1"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Bank - Loan Repayments]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="435" y="157" width="64" height="11" forecolor="#999999" uuid="91f5aed1-a716-404f-be19-eba5e0d52543"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="499" y="157" width="56" height="11" forecolor="#999999" uuid="3e11b389-c59a-4654-b82a-503c4c5637ce"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="293" y="157" width="142" height="11" forecolor="#999999" uuid="9593625d-2adb-475c-99e1-27142eb2504d"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="157" width="142" height="11" uuid="5d090a5f-4fae-49f3-9375-afc07789ad4a"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Cadet - Unit Expenses]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="435" y="168" width="64" height="11" forecolor="#999999" uuid="2ed2b2a3-aced-4bbf-a94c-21623c6c17f8"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="499" y="168" width="56" height="11" forecolor="#999999" uuid="082659a3-c01c-47aa-b671-83a33bbf6b53"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="293" y="168" width="142" height="11" forecolor="#999999" uuid="b269f757-4b1d-4996-a7cc-ba6ab64ebfe5"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="168" width="142" height="11" uuid="54245fef-ec1d-4545-8d08-f8fce96d3bfb"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Community Care - Catering]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="435" y="179" width="64" height="21" forecolor="#999999" uuid="1b223636-6cb5-4cf6-9c4a-20b347566e3d"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="293" y="179" width="142" height="21" forecolor="#999999" uuid="1fc7da49-08a4-4f4e-94a0-d6bbfd812151"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="499" y="179" width="56" height="21" forecolor="#999999" uuid="85ed0efd-9288-436e-8de7-702124991cd1"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="179" width="142" height="21" uuid="dec7822c-a05c-4a04-88b6-d8d15aeccc8f"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Community - Care Center Maintenance/Upkeep]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="293" y="200" width="142" height="21" forecolor="#999999" uuid="4f75aad8-dc9c-4005-9d00-f0d4c108532c"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="435" y="200" width="64" height="21" forecolor="#999999" uuid="b641c57a-d3af-49d4-8f4f-253fa71a2587"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="499" y="200" width="56" height="21" forecolor="#999999" uuid="19004f22-5aca-4047-826f-91bbefeb0e12"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="200" width="142" height="21" uuid="88577a4e-e302-48ed-8084-5e662daaf4c8"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Community - Care Center Services]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="435" y="221" width="64" height="11" forecolor="#999999" uuid="40224c31-165c-467b-bc23-755819666167"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="293" y="221" width="142" height="11" forecolor="#999999" uuid="c8f16784-c2bc-45d5-a02f-7a9043f57ad7"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="221" width="142" height="11" uuid="9c5abe76-3681-42c8-b438-362db3a25fda"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Community Care - Outings]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="499" y="221" width="56" height="11" forecolor="#999999" uuid="f173b831-a811-4ae9-a2fe-f281d43c7187"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="499" y="232" width="56" height="21" forecolor="#999999" uuid="49855dc4-ef13-4d65-97e7-2a3676084bff"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="435" y="232" width="64" height="21" forecolor="#999999" uuid="048636fb-397f-4e39-8b2e-6dfc2d131616"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="293" y="232" width="142" height="21" forecolor="#999999" uuid="76b2a494-92d3-4954-9cb5-fc73a572aa18"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="232" width="142" height="21" uuid="52b41ce7-483e-4a6b-ade5-43894df8b1bd"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Courses - First Aid Classes Expenses]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="499" y="253" width="56" height="21" forecolor="#999999" uuid="dc3fc006-991a-4227-95b5-bb0bfe7605ff"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="435" y="253" width="64" height="21" forecolor="#999999" uuid="95c63be0-57f0-42e9-afd6-5732efbcae3f"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="293" y="253" width="142" height="21" forecolor="#999999" uuid="7fcf1031-df6e-4974-add1-b330185c330b"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="253" width="142" height="21" uuid="c75960d0-ad0b-4b53-b7d3-524b83dabc2e"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Courses - OFA Instructor Expenses]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="499" y="272" width="56" height="21" forecolor="#999999" uuid="3dac2a02-423d-405f-90f6-326559909d07"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="435" y="272" width="64" height="21" forecolor="#999999" uuid="f1cbcd39-118a-4945-bcd3-da81701484c5"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="293" y="272" width="142" height="21" forecolor="#999999" uuid="a16503dd-dc40-4903-b1b8-8418a578aa3d"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="272" width="142" height="21" uuid="8459c4c4-7c1a-40b9-84d5-09c2e2bd9007"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Donations -  to other units/regions]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="499" y="293" width="56" height="21" forecolor="#999999" uuid="ce8b4776-ec2c-42b3-be60-31d9e0def6e8"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="435" y="293" width="64" height="21" forecolor="#999999" uuid="9c080758-b7d1-44a2-b041-c0977e5dde69"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="293" y="293" width="142" height="21" forecolor="#999999" uuid="b0745e62-8258-4535-b9e0-2db78347cf52"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="293" width="142" height="21" uuid="c439dfb1-e3e1-4132-a7d1-8f04283d2b8b"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Donations - to other Volutary Aid Societies]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="435" y="314" width="64" height="11" forecolor="#999999" uuid="31d38ef8-5f35-41fe-8923-81e9e49fc4eb"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="293" y="314" width="142" height="11" forecolor="#999999" uuid="d2a8593a-27f9-44ce-9b1b-ea5a214f967b"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="314" width="142" height="11" uuid="fdcbf62d-cc1d-4e51-bde6-e8cb05f5a47a"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Fundraising - Expenses]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="499" y="314" width="56" height="11" forecolor="#999999" uuid="ac3d3599-75bb-4dd7-b653-294ab074e73f"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="435" y="325" width="64" height="11" forecolor="#999999" uuid="48eaf347-81a7-4e07-aea0-5506956837fa"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="293" y="325" width="142" height="11" forecolor="#999999" uuid="04891a52-be9a-4f0d-8063-571d095e852b"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="325" width="142" height="11" uuid="8e7f21e8-6a52-4a88-ab89-60316cc4a313"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[HQ - Central Fund]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="499" y="325" width="56" height="11" forecolor="#999999" uuid="63bda8cb-4b93-4ec6-99ff-d4d2e2cd994e"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="435" y="336" width="64" height="11" forecolor="#999999" uuid="abfd38d0-1365-4345-899b-076129553626"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="293" y="336" width="142" height="11" forecolor="#999999" uuid="c2227ee1-48a2-4624-b1b0-8d8155914053"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="336" width="142" height="11" uuid="ecaa8021-cfb6-493e-8d5e-63ebb50dfe87"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[HQ - First Aid Certificates]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="499" y="336" width="56" height="11" forecolor="#999999" uuid="88952c1f-ff9d-43fc-8ddf-c535d5efbe5e"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="435" y="347" width="64" height="11" forecolor="#999999" uuid="7c9a3cf9-1da8-47eb-b5ea-153cae5b41ee"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="293" y="347" width="142" height="11" forecolor="#999999" uuid="962a27c3-6642-49e7-973f-5e74b5cb79bb"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="347" width="142" height="11" uuid="1c489c1e-4a8a-4b34-ab54-af6d45d02db2"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[HQ - Insurance (All)]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="499" y="347" width="56" height="11" forecolor="#999999" uuid="c1f49f4a-f396-4049-aee9-758135a25813"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="435" y="358" width="64" height="11" forecolor="#999999" uuid="9a5ac1ba-d92a-4915-a03e-49971468c19a"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="293" y="358" width="142" height="11" forecolor="#999999" uuid="87994f73-1b1a-4066-8181-a4b74717b284"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="358" width="142" height="11" uuid="77ce2be7-8c12-411e-af6d-185b98aa99db"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[HQ - Pilgrimages]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="499" y="358" width="56" height="11" forecolor="#999999" uuid="7cd0857a-0b8d-40f6-9beb-05ab658a70ac"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="435" y="369" width="64" height="11" forecolor="#999999" uuid="242998f7-a04f-4915-b965-3e1c3c6a27b5"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="293" y="369" width="142" height="11" forecolor="#999999" uuid="0e5a271d-edee-4b9c-b1ec-2419da695a11"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="369" width="142" height="11" uuid="40687d32-89be-4612-b286-b382d5a9b79c"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[HQ - Supplies (Books)]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="499" y="369" width="56" height="11" forecolor="#999999" uuid="03f3be11-48a5-4167-9736-33f8852d420b"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="435" y="380" width="64" height="11" forecolor="#999999" uuid="98ad9b8f-529e-42c3-8efd-60f71dc6c124"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="293" y="380" width="142" height="11" forecolor="#999999" uuid="7c7ae41c-d334-431d-8d6f-c8384be1180c"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="380" width="142" height="11" uuid="c4602254-21e2-4931-a122-5e348740f953"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[HQ - Training Courses]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="499" y="380" width="56" height="11" forecolor="#999999" uuid="a1809a9f-43c1-4655-ab0b-4fd58ba80bc2"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="435" y="391" width="64" height="11" forecolor="#999999" uuid="61a09a1e-c526-40b5-8ddd-b8ea22bbffec"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="293" y="391" width="142" height="11" forecolor="#999999" uuid="1e7ac9de-3320-4fc3-9032-690a5dbed183"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="391" width="142" height="11" uuid="059497de-37c5-4fe3-964e-10252b8fa431"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[HQ - Uniforms (All)]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="499" y="391" width="56" height="11" forecolor="#999999" uuid="b2f7e7a7-0a85-4bf8-8118-11da6a9c97f8"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="435" y="402" width="64" height="11" forecolor="#999999" uuid="0ee5bbc7-56a9-47ab-b58e-dec975bd5acd"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="293" y="402" width="142" height="11" forecolor="#999999" uuid="39f55140-94a0-4213-94c5-a0ee5e8c9fd1"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="402" width="142" height="11" uuid="7bc921e0-b7cc-4d0a-a746-5fd2ee5fe9a8"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Regional - Central Fund]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="499" y="402" width="56" height="11" forecolor="#999999" uuid="ac1b434d-3d7d-4fab-a6a3-3ac2a495b995"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="435" y="413" width="64" height="11" forecolor="#999999" uuid="96834770-64ab-45ea-92a6-0d61bb9cfa73"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="293" y="413" width="142" height="11" forecolor="#999999" uuid="95ba365c-7932-42c0-a12a-36da1edc5e7f"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="413" width="142" height="11" uuid="f2752f9c-c08d-43be-a7ff-766fcbeaf500"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Regional - Meeting Expenses]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="499" y="413" width="56" height="11" forecolor="#999999" uuid="a7df3aee-cd03-451f-b431-08631c0602ae"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="435" y="422" width="64" height="11" forecolor="#999999" uuid="052ecdf6-eab5-41fc-9359-5ee73a00af04"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="293" y="422" width="142" height="11" forecolor="#999999" uuid="aebec1ea-3c98-453d-9491-a85f8474a09e"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="422" width="142" height="11" uuid="04de6a94-d411-4335-8e92-23b04f89b8e8"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Regional - Training Courses]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="499" y="422" width="56" height="11" forecolor="#999999" uuid="9c10e70e-1986-4919-ac77-f310f587da8f"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="435" y="433" width="64" height="11" forecolor="#999999" uuid="fc9b206b-29fc-4fbd-9ca9-634381a5fb29"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="293" y="433" width="142" height="11" forecolor="#999999" uuid="b915c232-7d6a-4812-8fba-1708fbd9806c"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="433" width="142" height="11" uuid="8efb5cde-a38f-42d5-a02a-71f99265e4b5"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Sundry*]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="499" y="433" width="56" height="11" forecolor="#999999" uuid="ef46581a-3842-4ad9-9dea-54e36a685dc7"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="435" y="444" width="64" height="11" forecolor="#999999" uuid="a5143410-2dc5-4b64-923c-1070a5d3da15"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="293" y="444" width="142" height="11" forecolor="#999999" uuid="6b7e01c0-576b-4c21-99ff-1cc77f1cbf39"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="444" width="142" height="11" uuid="870b48ae-990a-473c-be15-3411f1067cf6"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Unit - Competitions Expenses]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="499" y="444" width="56" height="11" forecolor="#999999" uuid="e5207242-11c0-4cdb-82ad-e98b341d6626"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="435" y="455" width="64" height="11" forecolor="#999999" uuid="7c214ab3-bea8-461b-9e60-8decbff58a0a"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="293" y="455" width="142" height="11" forecolor="#999999" uuid="d6245f9e-93f0-4aca-ae50-4f6b259faf38"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="455" width="142" height="11" uuid="1c936d88-2be5-493d-967a-c55bb053a4c2"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Unit - Light & Heat]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="499" y="455" width="56" height="11" forecolor="#999999" uuid="6bf58713-60cc-42c8-adab-35c70b0190f7"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="435" y="466" width="64" height="21" forecolor="#999999" uuid="180ecd80-4b89-4288-a2da-b5321bb1db01"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="293" y="466" width="142" height="21" forecolor="#999999" uuid="218b0e59-0e3e-4bc8-8567-f455832deb60"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="466" width="142" height="21" uuid="4cca030b-0def-494a-b280-69627c227600"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Unit - National Conference Expenses]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="499" y="466" width="56" height="21" forecolor="#999999" uuid="906e1b82-7247-4582-bf85-b349647994c6"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="293" y="487" width="142" height="11" forecolor="#999999" uuid="e26465b4-571f-4d30-ab5e-452655ff15a4"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="435" y="487" width="64" height="11" forecolor="#999999" uuid="ef72a130-4d7d-4eb1-9165-7d3944aa3790"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="499" y="487" width="56" height="11" forecolor="#999999" uuid="56e4a8d6-5290-456c-9f1a-ea744542ab81"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="487" width="142" height="11" uuid="031a8a35-1f07-451f-8c05-7fbd869fe4c6"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Unit - Petrol/Diesel]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="293" y="498" width="142" height="11" forecolor="#999999" uuid="e91710b2-cec1-494b-ae41-2c4e934dd4de"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="435" y="498" width="64" height="11" forecolor="#999999" uuid="6b25884a-6a99-4979-be0e-1503e48fa390"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="499" y="498" width="56" height="11" forecolor="#999999" uuid="dd9752c4-8bf5-486a-a720-6cf947cb9afd"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="498" width="142" height="11" uuid="1e0aca04-29d4-451d-a283-5078da8ee447"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Unit - Postage & Stationary]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="293" y="509" width="142" height="11" forecolor="#999999" uuid="c049649a-715e-46b5-8533-f08bfed86809"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="435" y="509" width="64" height="11" forecolor="#999999" uuid="26d5796e-493e-4d96-972c-65fd9a108372"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="499" y="509" width="56" height="11" forecolor="#999999" uuid="9fb9ea71-455e-4dcf-b702-090df4c679ca"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="509" width="142" height="11" uuid="107bb90b-e44e-4d18-a973-03f014f9a5c6"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Unit - Rent Payable]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="293" y="520" width="142" height="11" forecolor="#999999" uuid="09742d30-d4a2-4b64-af70-68401779dcdd"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="435" y="520" width="64" height="11" forecolor="#999999" uuid="d9280750-8215-4e3d-bb5c-338e01c938b0"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="499" y="520" width="56" height="11" forecolor="#999999" uuid="45bf10df-416c-4e18-9e2c-7e5207905435"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="520" width="142" height="11" uuid="18a9e8db-0adb-4407-a2af-8ec2d2470453"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Unit - Repair to Property]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="293" y="531" width="142" height="11" forecolor="#999999" uuid="d4ee89a2-a2be-4fa3-8ccc-bcdbf4c43030"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="435" y="531" width="64" height="11" forecolor="#999999" uuid="23185a15-0a47-4a64-9405-83a36489ae79"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="499" y="531" width="56" height="11" forecolor="#999999" uuid="03d9787b-904d-4c3a-9891-3235fae4fbb8"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="531" width="142" height="11" uuid="96166e6b-2dbe-4814-91d9-b727e991e775"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Unit - Telephone]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="293" y="542" width="142" height="11" forecolor="#999999" uuid="a1119da6-7bd9-4614-b8e4-43c1c5354040"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="435" y="542" width="64" height="11" forecolor="#999999" uuid="6f903f69-4f64-470d-be74-ed798268eb8e"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="499" y="542" width="56" height="11" forecolor="#999999" uuid="1be4b911-bb15-4f14-9115-7f312676c996"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="542" width="142" height="11" uuid="83508966-39b0-4048-95ae-5255371f2e7f"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Unit - Training Courses]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="293" y="553" width="142" height="11" forecolor="#999999" uuid="c1f39a24-86b9-45f6-8fb8-1795b6e7c5a5"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="435" y="553" width="64" height="11" forecolor="#999999" uuid="4234487a-3536-48eb-b0a9-b470cab779b0"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="499" y="553" width="56" height="11" forecolor="#999999" uuid="7499c417-daaf-41e7-bba7-42061d1e125e"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="293" y="553" width="142" height="11" uuid="8c0f7627-6595-46fa-9a42-9abea65cb057"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Unit - Training Equipment]]></text>
+			</staticText>
+			<line>
+				<reportElement x="499" y="575" width="56" height="1" uuid="776f2427-6911-4c76-9d91-addadf606b47"/>
+				<graphicElement>
+					<pen lineWidth="1.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="499" y="592" width="56" height="1" uuid="a5110521-293a-4326-94cf-a1736fa87d80"/>
+				<graphicElement>
+					<pen lineWidth="1.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="435" y="575" width="56" height="1" uuid="6fb40d07-12c4-4f2f-8e22-b40fc8dce461"/>
+				<graphicElement>
+					<pen lineWidth="1.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="435" y="593" width="56" height="1" uuid="842b3c57-ae32-472b-9a15-e2b7fd4d64e9"/>
+				<graphicElement>
+					<pen lineWidth="1.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="436" y="604" width="119" height="1" uuid="7b12b27b-8fca-4c60-8329-1cdb8192c60c"/>
+				<graphicElement>
+					<pen lineWidth="1.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="436" y="627" width="119" height="1" uuid="d6127d49-36d5-433c-a702-4843c95e9ab1"/>
+				<graphicElement>
+					<pen lineWidth="1.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="156" y="594" width="56" height="1" uuid="f8b3098c-c7bb-4819-9f7e-2f8e66203974"/>
+				<graphicElement>
+					<pen lineWidth="1.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="221" y="577" width="56" height="1" uuid="2ee21ab2-c430-4bd1-b834-cbba0496114a"/>
+				<graphicElement>
+					<pen lineWidth="1.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="221" y="594" width="56" height="1" uuid="58030383-6ac0-4269-a392-dc13f00f201e"/>
+				<graphicElement>
+					<pen lineWidth="1.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="157" y="577" width="55" height="1" uuid="17f7647c-dd36-4348-b506-ee3f4e993124"/>
+				<graphicElement>
+					<pen lineWidth="1.5"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="7" y="570" width="76" height="20" forecolor="#CC0000" uuid="c9844c03-e76a-4201-aa13-0939a3c2599c"/>
+				<textElement>
+					<font fontName="Verdana" size="16"/>
+				</textElement>
+				<text><![CDATA[Total]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="293" y="573" width="76" height="20" forecolor="#CC0000" uuid="69558d73-0be4-4880-ae24-99a492c3a1e4"/>
+				<textElement>
+					<font fontName="Verdana" size="16"/>
+				</textElement>
+				<text><![CDATA[Total]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="7" y="608" width="354" height="20" forecolor="#CC0000" uuid="3ee41ee9-3371-4437-9ab8-1b163944faf3"/>
+				<textElement>
+					<font fontName="Verdana" size="16"/>
+				</textElement>
+				<text><![CDATA[Calculated Current Balance in all Accounts]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="218" y="62" width="57" height="15" uuid="f15cdefd-deea-4800-b9d8-455eaab7241b"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{basicFA}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="218" y="77" width="57" height="15" uuid="5379bd84-eef7-4803-840f-850979549b21"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{cadetInc}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="218" y="92" width="57" height="15" uuid="6a5ffba0-0460-4f56-8ce0-302317c85d10"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{cfrClasses}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="218" y="107" width="57" height="15" uuid="fbcbba0d-2612-4e18-84e2-3e76a2ecca9b"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{churchGate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="218" y="122" width="57" height="20" uuid="e830483f-6e81-4a9d-abb7-2f98f10e4882"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{comCare}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="218" y="142" width="57" height="16" uuid="4af6d4b8-f577-42c4-992a-9f2856b57394"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{comps}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="218" y="157" width="57" height="15" uuid="92412fc1-c417-4daf-9c70-1806f80e4d42"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{charityDonations}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="218" y="172" width="57" height="15" uuid="e7b68b0f-292b-49cf-a8e8-70dc45f7c782"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{dutyDonations}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="218" y="187" width="57" height="20" uuid="cd14a16d-3953-4382-bd32-317d1d031448"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unitsDonations}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="218" y="207" width="57" height="20" uuid="6c74c1cd-e56f-416d-a11e-e3d5872cc50c"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{otherVolDonations}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="218" y="227" width="57" height="15" uuid="d6572644-d4d4-44c0-b993-494d1a4b0bae"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{flagDays}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="218" y="242" width="57" height="15" uuid="ff109c9c-5a80-4976-b0ff-555315294fe4"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{grantsHSE}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="218" y="257" width="57" height="15" uuid="117772b5-a866-4db5-831a-fa50b8fc19cf"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{grantsLocalAuth}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="218" y="272" width="57" height="15" uuid="1ed3cc97-80e3-4991-8201-6d57d7b1167b"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{grantsLottery}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="218" y="287" width="57" height="15" uuid="dc98c4bb-d2e2-466c-9ea5-7888444e4401"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{grantsOther}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="218" y="302" width="57" height="15" uuid="c8040840-7cc0-42a9-ab4b-e9049b902a1a"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{grantsVEC}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="218" y="317" width="57" height="15" uuid="9022dffb-19ee-45e3-b1bb-a7a5a3a2591b"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{membersSub}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="218" y="332" width="57" height="15" uuid="7c8843b8-417c-457e-831c-1c73976e91d1"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{occupFAClasses}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="218" y="347" width="57" height="15" uuid="084f0144-9cbf-4e9f-807e-98cd7663badc"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{otherClasses}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="218" y="362" width="57" height="15" uuid="7d545c39-5478-4beb-aaa4-3512f6935a61"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{otherFundraising}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="218" y="377" width="57" height="15" uuid="6b7cbf02-c1cf-41d9-a5a3-745b87195e5e"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{pilgrimages}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="218" y="391" width="57" height="16" uuid="2a048533-f841-4f8c-af07-69b6f69b69c2"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{rentReceived}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="218" y="407" width="57" height="15" uuid="f65b6e1d-c25e-43c8-8f9e-60ab71df008e"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{saleOfAmbo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="218" y="422" width="57" height="15" uuid="d6a88b91-981a-4125-b6e3-175025023f55"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{sundry}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="218" y="437" width="57" height="15" uuid="b5a95e35-b84e-4f54-95ab-8ebb4ad154f2"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{supermarket}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="221" y="578" width="56" height="17" uuid="94a25213-3e56-4fb9-9b82-7e9069dee621"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" isBold="true"/>
+					<paragraph rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{receiptsTotal}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="500" y="47" width="55" height="20" uuid="1ce85890-f1bf-4bb5-b525-2c65315b8f35"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{amboEmerEquip}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="499" y="68" width="56" height="21" uuid="33c4b276-edaf-4582-81a9-39e8397e365f"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{amboFAEquip}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="499" y="89" width="56" height="15" uuid="4df5b07c-f02b-48a4-844b-75a067a71663"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{amboMaint}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="499" y="104" width="56" height="21" uuid="1c72c24a-781c-4a27-ab08-0792983263cc"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{amboNewVeh}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="125" width="56" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="928cf4ca-d705-4951-b5e1-a23f91565122"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{bankCharges}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="499" y="136" width="56" height="11" uuid="184351a5-9346-47f5-9f40-17d50b9178d7"/>
+				<textFieldExpression><![CDATA[$F{bankCharges}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="136" width="56" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="dc587e7f-0e3b-40ec-ba37-7a49dece78e4"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{bankInt}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="147" width="56" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="662715c4-0262-47db-9875-dce8475d5bd8"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{bankLoan}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="157" width="56" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="09a35e2a-3be9-46e2-aa5e-a49c23907ecd"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{cadetExp}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="167" width="56" height="12" forecolor="#000000" backcolor="#FFFFFF" uuid="66d1d268-0d65-48ec-8673-314d6bbc52f6"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{comCatering}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="179" width="56" height="21" forecolor="#000000" backcolor="#FFFFFF" uuid="3f02348a-badc-437a-8142-7f0eb2ffb7b5"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{comMaint}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="200" width="56" height="21" forecolor="#000000" backcolor="#FFFFFF" uuid="619f212e-e529-426c-bed5-2338d293240f"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{comServ}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="221" width="56" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="9e0d7a3e-6529-4f3a-9212-fdb19db7b45f"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{comOutings}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="232" width="56" height="21" forecolor="#000000" backcolor="#FFFFFF" uuid="c20d78e7-e78b-4bb8-88ae-2892b261f26b"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{coursesFA}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="253" width="56" height="21" forecolor="#000000" backcolor="#FFFFFF" uuid="013e9c9e-fb40-4116-8a75-436707078f7d"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{coursesOFA}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="272" width="56" height="21" forecolor="#000000" backcolor="#FFFFFF" uuid="83197c08-0bad-46ca-b62c-b6555ae1201a"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{donationsOtherUnit}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="293" width="56" height="21" forecolor="#000000" backcolor="#FFFFFF" uuid="4c21ef86-6529-4143-be2e-3ef2d3860826"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{donationsOtherVol}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="314" width="56" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="fe54514a-e2e0-458b-a721-b436b6887d35"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{fundraisingExp}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="325" width="56" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="4fe5471c-b29e-44ff-89a3-3f0d820d2b7d"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{hqFund}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="336" width="56" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="2a5297be-04c5-4270-b8fb-199313a303c3"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{hqCerts}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="347" width="56" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="92104252-89bd-410d-9b63-a14b15165c2a"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{hqIns}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="357" width="56" height="12" forecolor="#000000" backcolor="#FFFFFF" uuid="9a4bd9fb-f17e-496c-94c9-aa995ad2b6b4"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{hqPilgrimages}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="369" width="56" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="5ee3acc3-c473-4408-bdc3-12a028c3273f"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{hqSupplies}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="380" width="56" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="1b2cf229-4392-411b-871e-906ba5fca564"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{hqTraining}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="391" width="56" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="1e671e94-2b24-4b25-a601-adc1c8798ad1"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{hqUniforms}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="402" width="56" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="c8327c4c-e50e-4b00-aed0-b2a6ca2f4ab9"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{regionalFund}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="413" width="56" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="00bcebc9-1354-4d98-ac36-72e5a155930c"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{regionalMeetExp}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="422" width="56" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="19b76032-4744-4a6c-a59a-1949de792dcc"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{regionalTrainExp}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="433" width="56" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="0a03e2b9-033c-492b-b0f3-af34561fa1a9"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{sundry2}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="444" width="56" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="9d101982-d12a-4b49-965a-d10bf2267146"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unitComps}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="455" width="56" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="b4d8390b-3665-464a-9b00-1ac2fd46b834"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unitLightHeat}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="466" width="56" height="21" forecolor="#000000" backcolor="#FFFFFF" uuid="56a64d08-2549-4587-aee8-9cf409ada77c"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unitConfExp}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="487" width="56" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="09507e07-86f2-49e0-a498-b13c7fd41e25"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unitPetrolDiesel}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="498" width="56" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="56f44a89-c9b3-469b-b8f1-c6575ebd5ca0"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unitStationary}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="509" width="56" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="c3564ebd-3a54-4e08-a07f-70d886b9147b"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unitRent}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="520" width="56" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="9f946cab-75f6-4589-afcf-939ee90f5779"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unitPropRepair}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="531" width="56" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="345b50d4-ffac-4c61-9cca-d232e1957774"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unitTel}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="542" width="56" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="7803ab90-ca51-43e8-a8c5-5f4badb18a4c"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unitTrainCourses}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="553" width="56" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="3e827a46-5446-42cf-ac3b-bac858c5fb24"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unitTrainEquip}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="499" y="576" width="56" height="16" forecolor="#000000" backcolor="#FFFFFF" uuid="3ea07cde-7bc6-4066-9639-9b93b085bbc6"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="10" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{clearedPaymentsTotal}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="157" y="47" width="61" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="782e70f9-26d1-46ef-bbf0-0796f831ead4"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="true"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unrecBankIntReceived}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="156" y="62" width="62" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="65db1cbb-4207-4195-96e7-76c458603080"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unrecBasicFA}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="157" y="77" width="61" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="1e86c1df-2e67-442e-af6e-9f0d8da9bd9e"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unrecCadetInc}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="157" y="92" width="61" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="1b638942-36e4-4ec0-8f5e-341eed564df6"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unrecCfrClasses}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="156" y="107" width="62" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="445b9873-12be-4283-bd9b-950980e0ffb9"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unrecChurchGate}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="156" y="122" width="62" height="20" forecolor="#000000" backcolor="#FFFFFF" uuid="3862958d-b38e-4afe-bade-a9dc431927b0"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unrecComCare}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="157" y="142" width="61" height="16" forecolor="#000000" backcolor="#FFFFFF" uuid="b6e6c4b2-12d1-47bb-9818-8fd3ae44ede3"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unrecComps}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="156" y="157" width="62" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="5930a205-13b6-45d6-8cc8-963be6e058e0"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unrecCharityDonations}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="157" y="172" width="61" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="32aa02a9-623d-43ac-8d1d-4ab1d048a189"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unrecDutyDonations}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="156" y="187" width="62" height="20" forecolor="#000000" backcolor="#FFFFFF" uuid="a0b2652a-48b9-4732-8113-54878f480d56"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unrecUnitsDonations}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="157" y="207" width="61" height="20" forecolor="#000000" backcolor="#FFFFFF" uuid="36488c26-aa92-4f7a-9f46-221452f5bc9f"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unrecOtherVolDonations}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="156" y="227" width="62" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="a765ead8-2a24-467d-8687-2245e8a22ca9"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unrecFlagDays}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="156" y="242" width="62" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="c7d7f683-8858-40fd-ba50-1043cee759a0"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unrecGrantsHSE}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="156" y="257" width="62" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="79b32f9c-222d-463d-810e-a9243efe2729"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unrecGrantsLocalAuth}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="156" y="272" width="62" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="ea22c380-fb36-4864-b1b1-af138a63fdb3"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unrecGrantsLottery}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="157" y="287" width="61" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="d500d182-2832-43f3-9f7a-af65a480c13c"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unrecGrantsOther}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="156" y="302" width="62" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="7affb987-1c0c-45fb-999c-fc7bed1c163b"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unrecGrantsVEC}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="156" y="317" width="62" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="d5569243-f348-4fdb-b0fc-2fc446c50175"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unrecMembersSub}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="156" y="332" width="62" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="4876495f-5945-4441-b1d7-0310ac58210f"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unrecOccupFAClasses}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="157" y="347" width="61" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="4d0421d6-bfe4-49ef-bf3c-5e6f8ef19a4e"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unrecOtherClasses}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="156" y="362" width="62" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="73ee726e-f19d-4c4e-89e1-e45fb7eb18a2"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unrecOtherFundraising}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="156" y="377" width="62" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="e30d2f3b-0aeb-485a-ae61-c249e62a9805"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unrecPilgrimages}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="156" y="391" width="62" height="16" forecolor="#000000" backcolor="#FFFFFF" uuid="8b717ee7-9528-4463-8fb0-0283efd3e58e"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unrecRentReceived}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="156" y="407" width="62" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="ae411481-4df0-4d72-9e32-303173f4aacf"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unrecSaleOfAmbo}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="157" y="422" width="61" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="2852e4c3-c298-4df5-a682-4041d78e293a"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unrecSundry}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="156" y="437" width="62" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="c544abeb-75e1-41c2-b233-33fba7d80da3"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unrecSupermarket}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="157" y="578" width="56" height="16" forecolor="#000000" backcolor="#FFFFFF" uuid="a0959808-fc6d-45a6-a1b4-163ae44ffda6"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="10" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unclearedReceiptsTotal}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="435" y="47" width="64" height="21" forecolor="#000000" backcolor="#FFFFFF" uuid="9e1ccb99-89d1-4a7b-99e7-25d871fbbc12"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayAmboEmerEquip}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="435" y="68" width="64" height="21" forecolor="#000000" backcolor="#FFFFFF" uuid="7e0b0afa-42dc-43b9-91c5-4943632c1e5c"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayAmboFAEquip}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="435" y="89" width="64" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="314576ea-4057-4956-9873-7f40a6b2f20f"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayAmboMaint}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="434" y="104" width="65" height="21" forecolor="#000000" backcolor="#FFFFFF" uuid="3842db54-4c93-40da-b219-0b5600cbc34f"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayAmboNewVeh}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="435" y="125" width="64" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="a6012283-a521-4509-90a1-8bad68d29d9c"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayBankCharges}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="434" y="136" width="65" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="3a60d842-d163-457c-936d-fd2a8ff206f0"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayBankInt}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="434" y="147" width="65" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="9c00c0d4-61a4-4008-99c6-358c9d5f5ab6"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayBankLoan}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="435" y="157" width="64" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="6c31ed60-7c84-402d-841e-4d84235d133b"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayCadetExp}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="434" y="167" width="65" height="12" forecolor="#000000" backcolor="#FFFFFF" uuid="e7508dcf-5435-4522-8644-80717e58ebfc"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayComCatering}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="435" y="179" width="64" height="21" forecolor="#000000" backcolor="#FFFFFF" uuid="3f704cec-212f-4cac-9206-19b5555948de"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayComMaint}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="435" y="200" width="64" height="21" forecolor="#000000" backcolor="#FFFFFF" uuid="56b4ebb4-bf87-4def-bb0e-1f9d00b03744"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayComServ}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="434" y="221" width="65" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="1136103d-2b95-4678-8ab5-f70445c254f7"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayComOutings}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="435" y="232" width="64" height="21" forecolor="#000000" backcolor="#FFFFFF" uuid="aeb95eb4-8a7a-4008-b972-fb86bcd66b3b"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayCoursesFA}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="434" y="253" width="65" height="21" forecolor="#000000" backcolor="#FFFFFF" uuid="d8617952-792c-45b8-9c6a-b62a1871e52d"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayCoursesOFA}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="434" y="272" width="65" height="21" forecolor="#000000" backcolor="#FFFFFF" uuid="bc0800c4-6728-4068-b04f-315afcae9c94"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayDonationsOtherUnit}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="434" y="293" width="66" height="21" forecolor="#000000" backcolor="#FFFFFF" uuid="f1482ac1-a5a3-4eec-9e45-5db885aa2c3c"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayDonationsOtherVol}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="435" y="314" width="64" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="728036f9-0a76-4db8-b464-d731108e66ae"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayFundraisingExp}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="435" y="325" width="64" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="68a7d3e6-7d9f-441b-b57d-f9b315498e21"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayHqFund}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="435" y="336" width="64" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="033c7b1d-3383-48a2-94d1-809653aff278"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayHqCerts}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="434" y="347" width="65" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="5677eddb-9c3c-4f63-acf7-c707d659258c"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayHqIns}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="435" y="358" width="64" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="f37ba596-e8e5-4729-a69c-c46e87ad4818"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayHqPilgrimages}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="435" y="369" width="64" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="5c7798de-2c9b-4848-bedc-a12e4c32a277"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayHqSupplies}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="434" y="380" width="65" height="12" forecolor="#000000" backcolor="#FFFFFF" uuid="7a50dace-09b3-497c-bf92-a63b42efbeeb"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayHqTraining}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="433" y="391" width="66" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="9ce199d7-9367-4d14-a3b9-bb6c19506243"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayHqUniforms}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="434" y="402" width="65" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="cab6b3ee-a644-453c-9a81-e48c739236c8"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayRegionalFund}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="434" y="413" width="65" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="30a26a1b-612f-47a0-8c48-eed3a5c179c3"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayRegionalMeetExp}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="434" y="422" width="65" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="9b62c7f4-e8df-4d7f-a65a-9acb6aefaa7a"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayRegionalTrainExp}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="435" y="433" width="64" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="69827d85-b5dc-4666-aa04-dcad95a8c730"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpaySundry2}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="434" y="444" width="65" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="73b477ef-9b33-46a1-9ec9-bb9740020fec"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayUnitComps}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="434" y="455" width="65" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="8d916ff5-9fee-487d-9785-73b74093397c"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayUnitLightHeat}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="434" y="466" width="65" height="21" forecolor="#000000" backcolor="#FFFFFF" uuid="ba2fa7c3-bb81-4838-8676-17d4681e52bf"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayUnitConfExp}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="435" y="487" width="64" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="fa094906-bb6b-4082-9300-2e47aceeb4b1"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayUnitPetrolDiesel}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="434" y="498" width="65" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="6f18d220-682f-427d-a9d1-495aa9a4b845"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayUnitStationary}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="434" y="509" width="65" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="1effbc4d-278b-44ec-9ec3-fa35e6df5eb2"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayUnitRent}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="435" y="520" width="64" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="2fd03bbf-7885-4909-bf40-89b87bb73854"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayUnitPropRepair}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="435" y="531" width="64" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="bd13c7a8-c9a2-4156-8196-655748c41a88"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayUnitTel}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="434" y="542" width="65" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="8d46e25a-e601-46a0-a1c9-92f4c416cda5"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayUnitTrainCourses}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="434" y="553" width="65" height="11" forecolor="#000000" backcolor="#FFFFFF" uuid="25e0ef65-be4f-49df-adab-050fd5d629f4"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unpayUnitTrainEquip}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="433" y="576" width="58" height="17" forecolor="#000000" backcolor="#FFFFFF" uuid="7fd01e87-6702-4ace-a8eb-17bd9e6381ce"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="10" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unclearedPaymentsTotal}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="false">
+				<reportElement mode="Transparent" x="436" y="605" width="119" height="22" forecolor="#000000" backcolor="#FFFFFF" uuid="7bc7b265-6cf2-438c-a35d-c3cd76bdb034"/>
+				<textElement textAlignment="Right" verticalAlignment="Top" rotation="None" markup="none">
+					<font fontName="Verdana" size="14" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="Single" rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{finalTotal}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="218" y="47" width="57" height="15" isPrintWhenDetailOverflows="true" uuid="62492d4e-9ab9-4081-9533-c4d85b442caf"/>
+				<textElement textAlignment="Right">
+					<font fontName="Verdana" size="8" isBold="true" isItalic="false" isPdfEmbedded="true"/>
+					<paragraph rightIndent="3"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{bankIntReceived}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement mode="Transparent" x="7" y="62" width="150" height="15" uuid="c9a21a77-3270-44dd-8494-ff3dd65e279a"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Basic First Aid Classes]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="7" y="77" width="150" height="15" uuid="a0b469f0-c298-45bf-b4fc-7634204cd19d"/>
+				<textElement>
+					<font fontName="Verdana" size="8" isBold="true"/>
+					<paragraph leftIndent="3"/>
+				</textElement>
+				<text><![CDATA[Cadet Unit Income]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>
